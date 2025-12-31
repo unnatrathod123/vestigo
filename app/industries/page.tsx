@@ -3,7 +3,6 @@
 import { useState } from "react";
 
 import Link from 'next/link';
-import Chemical from "./chemical";
 
 export default function About() {
   const [view, setView] = useState("industries");
@@ -11,7 +10,7 @@ export default function About() {
   return (
     <>
    <div className="flex w-full p-30">
-      <Chemical/>
+     
     </div>
     
     </>
