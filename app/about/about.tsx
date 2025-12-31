@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Whopg from "./who/who";
 import Whypg from "./why/why";
-import Teampg from "./team/team";
+import Teampg from "./team/Teampg";
 import Partners from "./partners/partners";
 
 export default function Abt() {
