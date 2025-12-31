@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Whopg from "./who/who";
 import Whypg from "./why/why";
-import Teampg from "./team/Teampg";
+
 import Partners from "./partners/partners";
 
 export default function Abt() {
@@ -49,7 +49,7 @@ export default function Abt() {
             <div className="text-left text-sm text-blue-300 max-h-[300px] overflow-y-auto pr-4">
               {view === "who" && item.id === "who" && <Whopg />}
               {view === "why" && item.id === "why" && <Whypg />}
-              {view === "team" && item.id === "team" && <Teampg />}
+              
               {view === "partners" && item.id === "partners" && <Partners />}
             </div>
             
