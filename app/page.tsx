@@ -109,70 +109,30 @@ export default function Abc() {
     <div className="flex flex-col min-h-screen bg-white text-gray-900">
 
       {/* Hero Section */}
-      
-    {/* ================= HERO SECTION ================= */}
-<section className="relative h-[80vh] overflow-hidden">
-  {/* Background Image */}
-  <div className="absolute inset-0">
-    <Image
-      src="/Multi_industry.webp"
-      alt="Multi industry insurance background"
-      fill
-      priority
-      className="object-cover object-right"
-    />
-  </div>
+      <section className="bg-gradient-to-r from-blue-200 to-cyan-200 text-gray-900">
+        <div className="max-w-7xl mx-auto px-4 py-24 grid md:grid-cols-2 gap-10 items-center">
+          <div className="space-y-6">
+            <h1 className="text-5xl md:text-6xl font-bold">
+              Vestigo
+            </h1>
+            <p className="text-lg md:text-xl text-gray-700">
+              Global Insurance & Financial Services Company providing comprehensive solutions for life, health, commercial, and risk management.
+            </p>
+            <div className="flex gap-4">
+            
+            </div>
+          </div>
 
-  {/* Enterprise Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-r from-slate-900/70 via-slate-900/30 to-slate-900/10" />
-
-  {/* Content */}
-  <div className="relative z-10 h-full flex items-center">
-    <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
-      
-      {/* Text */}
-     <div className="space-y-6">
-  {/* Brand Logo */}
-<div className="inline-block rounded-2xl bg-white/10 backdrop-blur-md shadow-lg px-6 py-4">
-  <div className="relative w-56 md:w-72 h-24 md:h-28">
-    <Image
-      src="/logo.png"
-      alt="Vestigo Insurance"
-      fill
-      priority
-      className="object-contain"
-    />
-  </div>
-</div>
-
-
-
-         {/* Divider */}
-  <div className="h-1 w-16 bg-blue-0 rounded-full" />
-
-  {/* Description */}
-  <p className="text-lg md:text-xl text-slate-200 leading-relaxed max-w-xl">
-    A global insurance and financial services company delivering
-    comprehensive protection solutions across life, commercial,
-    and multi-industry risk.
-  </p>
-
-  {/* CTAs */}
-  <div className="flex gap-4 pt-4">
-    <button className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500 transition">
-      Get Started
-    </button>
-    <button className="px-8 py-3 border border-white/40 text-white font-semibold rounded-lg hover:bg-white/10 transition">
-      Learn More
-    </button>
-  </div>
-</div>
-
-      
-    </div>
-  </div>
-</section>
-
+          <div className="relative w-full h-80 md:h-96">
+            <Image
+              src="/logo.png"
+              alt="Allianz Logo"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </div>
+      </section>
 
       {/* About Section */}
       <section className="max-w-7xl mx-auto px-4 py-16">
@@ -228,10 +188,10 @@ export default function Abc() {
 
 
 
-          <section className="relative py-48 flex justify-center items-center overflow-hidden border-t border-gray-100 dark:border-gray-800">
+          {/* <section className="relative py-48 flex justify-center items-center overflow-hidden border-t border-gray-100 dark:border-gray-800">
            <div className="absolute inset-0 z-[-1] grayscale opacity-10 blur-sm">
              <img 
-              src="\Multi_industry.webp" 
+              src="https://picsum.photos/id/201/1600/900" 
               alt="World" 
               className="w-full h-full object-cover"
             />
@@ -243,7 +203,7 @@ export default function Abc() {
                 <div className="absolute inset-0 bg-gray-700 dark:bg-gray-200 translate-y-full group-hover:translate-y-0 transition-transform" />
             </button>
           </div>
-        </section>
+        </section> */}
       {/* Footer */}
     
     </div>
