@@ -8,8 +8,11 @@ const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true },
-  transition: { duration: 0.6, ease: "easeOut" }
-};
+  transition: { 
+    duration: 0.6, 
+    ease: "easeOut" // TypeScript now sees this as the literal "easeOut"
+  }
+} as const; // <--- Add this here
 
 const staggerContainer = {
   initial: {},
