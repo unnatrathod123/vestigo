@@ -23,13 +23,13 @@ export default function Header() {
     {
       title: "Solutions",
       submenu: [
-        { title: "Audit Risk", href: "/solutions/audit-risk" },
-        { title: "Commercial Insurance", href: "/solutions/commercial-insurance" },
-        { title: "Life Insurance", href: "/solutions/life-insurance" },
-        { title: "Claims Management", href: "/solutions/claims-management" },
-        { title: "Green Insurance", href: "/solutions/green-insurance" },
-        { title: "Surety Bond & Credit Insurance", href: "/solutions/surety-bond-credit" },
-        { title: "Ability Suite", href: "/solutions/ability-suite" },
+        { title: "Audit Risk", href: "/solutions/audit_risk" },
+        { title: "Commercial Insurance", href: "/solutions/commercial_insurance" },
+        { title: "Life Insurance", href: "/solutions/life_insurance" },
+        { title: "Claims Management", href: "/solutions/claims_management" },
+        { title: "Green Insurance", href: "/solutions/green_insurance" },
+        { title: "Surety Bond & Credit Insurance", href: "/solutions/bond_credit" },
+        { title: "Ability Suite", href: "/solutions/ability_suite" },
       ],
     },
     {
@@ -206,6 +206,7 @@ export default function Header() {
 
         {/* Mobile menu button */}
         <div className="md:hidden">
+          
           {/* Add hamburger menu here */}
         </div>
       </div>
